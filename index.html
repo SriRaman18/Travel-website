@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@400;700&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Raleway:wght@300;400;500;600;700;800;900&family=Source+Serif+Pro&family=Ubuntu:wght@500&display=swap"
+      rel="stylesheet"
+      />
+      <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      />
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      
+      <link rel="stylesheet" href="styles.css" />
+      
+
+    <link rel="icon" type="image/png" href="s-letter.png" />
+  </head>
+  <body>
+    <div class="all-sections">
+      <nav class="nav" id="#">
+        <div class="logo">
+          <a >Travel</a>
+        </div>
+        <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+        <div class="sub-menu">
+          <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
+          <ul class="ul">
+            <div class="li" >
+                <a href="#home" class="a-li a-home highlight"> HOME </a>
+            </div>
+
+            <div class="li">
+
+              
+              
+              <a href="#about" class="a-li a-about ">
+                ABOUT            </a>
+              </div>
+
+              <div class="li">
+
+                <a href="#discover" class="a-li a-discover ">
+                  DISCOVER
+                </a>
+              </div>
+              <div class="li">
+
+                <a href="#places" class="a-li a-places">
+                  PLACES
+                </a>
+              </div>
+          </ul>
+          <div class="icon">
+            <div class="mode">dark mode</div>
+            <i class="fa-regular fa-moon toggle-btn"></i>
+            <!-- <i class="fa-solid fa-sun"></i> -->
+          </div>
+        </div>
+      </nav>
+
+      <div id="home" class="home fullsection">
+        <div class="inner-home hidden" >
+          <h4>Discover your place</h4>
+          <p class="title">
+            Explore The <br />
+            Best
+            <span class="color-title">
+              Beautiful <br />
+              Beaches
+            </span>
+          </p>
+          <button class="btn">Explore</button>
+          <div class="social-icons hidden left-side">
+            <i class="fa-brands fa-twitter hidden"></i>
+            <i class="fa-brands fa-instagram hidden"></i>
+            <i class="fa-brands fa-facebook hidden"></i>
+            <i class="fa-brands fa-youtube hidden"></i>
+          </div>
+        </div>
+      </div>
+      <div id="about" class="about fullsection">
+        <div class="about-text hidden left-side">
+          <h2>More Information <br> About The Best Beaches</h2>
+          <p>
+            You can find the most beautiful and pleasant places at the best
+            prices with special discounts, you choose the place we will guide
+            you all the way to wait, get your place now.
+          </p>
+          <button class="btn">Reserve a place</button>
+        </div>
+        <div class="about-image hidden right-side">
+          <div class="small-img-container img-container">
+            <img src="img/about1.jpg" alt="image1" class="small-img" />
+          </div>
+          <div class="big-img-container img-container">
+            <img src="img/about2.jpg" alt="image2" class="big-img" />
+          </div>
+        </div>
+      </div>
+
+      <div id="discover" class="discover-section fullsection">
+        <div class="swiper-section">
+          <p class="swiper-header">Discover the most  <br>  attractive places</p>
+
+          <div class="swiper hidden">
+            <div class="swiper-wrapper">
+  
+              <div class="swiper-slide">
+
+                <img src="/img/discover1.jpg" alt="discover1" class="swiper-img">
+                <div class="div">
+                  
+                  <p>Bali</p>
+                  <small>24 tours available</small>
+                </div>
+              </div>
+              <div class="swiper-slide">
+
+                <img src="/img/discover2.jpg" alt="discover2" class="swiper-img">
+                <div class="div">
+
+                  <p>Hawaii</p>
+                  <small>15 tours available</small>
+                </div>
+              </div>
+              <div class="swiper-slide">
+
+                <img src="/img/discover3.jpg" alt="discover3" class="swiper-img">
+                <div class="div">
+
+                  <p>Hvar</p>
+                  <small>18 tours available</small>
+                </div>
+              </div>
+              <div class="swiper-slide">
+
+                <img src="/img/discover4.jpg" alt="discover4" class="swiper-img">
+                <div class="div">
+
+                  <p>Whitehaven</p>
+                  <small>32 tours available</small>
+                </div>
+              </div>
+              
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+          </div>
+        </div>
+        <div class="experience-section">
+          <p class="experience-header">
+            With Our Experience <br />
+            We Will Serve You
+          </p>
+          <div class="numbers-div hidden">
+            <div class="number hidden">
+              <h3>20</h3>
+              <p>
+                Year <br />
+                Experience
+              </p>
+            </div>
+            <div class="number hidden">
+              <h3>75</h3>
+              <p>
+                Complete <br />
+                tours
+              </p>
+            </div>
+            <div class="number hidden">
+              <h3>650+</h3>
+              <p>
+                Tourist <br />
+                Destinations
+              </p>
+            </div>
+          </div>
+          <div class="experience-image ">
+            <div class="img-container-two small-img-container-two hidden">
+              <img
+                src="img/experience2.jpg"
+                alt="image1"
+                class="small-img-two"
+              />
+            </div>
+            <div class="img-container-two big-img-container-two hidden">
+              <img src="img/experience1.jpg" alt="image2" class="big-img-two" />
+            </div>
+          </div>
+        </div>
+        <div class="experience-video">
+          <h2>Video Tour</h2>
+          <p class="hidden left-side">
+            Find out more with our video of the most beautiful and <br />
+            pleasant places for you and your family.
+          </p>
+          <div class="video-container hidden right-side">
+            <video id="video-file">
+              <source src="video/video.mp4" type="video/mp4" />
+            </video>
+            <button class="btn video-btn" title="play">
+              <i class="fa-regular fa-circle-play play-icon"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div id="places" class="places fullsection">
+        <h2>Choose Your Place</h2>
+        <div class="places-images hidden">
+          <div class="places-image hidden">
+            <img src="img/place1.jpg" alt="place1" />
+            <div class="places-text">
+              <div class="div">
+                <h2>Bali</h2>
+                <p>Indonesia</p>
+              </div>
+              <h3>$2499</h3>
+            </div>
+            <div class="star-div">
+              <i class="fa-regular fa-star"></i>
+              <p>4.8</p>
+            </div>
+            <button class="arrow-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="places-image hidden">
+            <img src="img/place2.jpg" alt="place1" />
+            <div class="places-text">
+              <div class="div">
+                <h2>Bora Bora</h2>
+                <p>Polinesia</p>
+              </div>
+              <h3>$1599</h3>
+            </div>
+            <div class="star-div">
+              <i class="fa-regular fa-star"></i>
+              <p>5.0</p>
+            </div>
+            <button class="arrow-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="places-image hidden">
+            <img src="img/place3.jpg" alt="place1" />
+            <div class="places-text">
+              <div class="div">
+                <h2>Hawaii</h2>
+                <p>EE.UU</p>
+              </div>
+              <h3>$3499</h3>
+            </div>
+            <div class="star-div">
+              <i class="fa-regular fa-star"></i>
+              <p>4.9</p>
+            </div>
+            <button class="arrow-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="places-image hidden">
+            <img src="img/place4.jpg" alt="place1" />
+            <div class="places-text">
+              <div class="div">
+                <h2>White haven</h2>
+                <p>Australia</p>
+              </div>
+              <h3>$2499</h3>
+            </div>
+            <div class="star-div">
+              <i class="fa-regular fa-star"></i>
+              <p>5.0</p>
+            </div>
+            <button class="arrow-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="places-image hidden">
+            <img src="img/place5.jpg" alt="place1" />
+            <div class="places-text">
+              <div class="div">
+                <h2>Hyar</h2>
+                <p>Croacia</p>
+              </div>
+              <h3>$1999</h3>
+            </div>
+            <div class="star-div">
+              <i class="fa-regular fa-star"></i>
+              <p>4.9</p>
+            </div>
+            <button class="arrow-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="subscribe">
+        <div class="inner-subscribe">
+
+          <h2>Subscribe Our <br> Newsletter</h2>
+          <p class="hidden left-side">Subscribe to our newsletter and get a special 30% discount. </p>
+        <div class="input-div hidden right-side">
+
+          <input type="email" placeholder="Enter email">
+          <button class="subscribe-btn"> Subscribe</button>
+        </div>
+        
+      </div>
+      </div>
+      <div  class="sponsers hidden">
+        <div class="hidden">
+
+          <img src="img/sponsors1.png" alt="sponser1" >
+        </div>
+        <div class="hidden">
+
+          <img src="img/sponsors2.png" alt="sponser2" >
+        </div>
+        <div class="hidden">
+
+          <img src="img/sponsors3.png" alt="sponser3" >
+        </div>
+        <div class="hidden">
+
+          <img src="img/sponsors4.png" alt="sponser4" >
+        </div>
+        <div class="hidden">
+        <img src="img/sponsors5.png" alt="sponser5">
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <div class="footer-up">
+          <div class="travel hidden">
+            <h2>Travel</h2>
+            <p>Travel you choose the <br>
+              destination, we offer you the <br>
+              experience. 
+            </p>
+            <div class="icons-div ">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            
+          </div>
+          <div class="about-div hidden">
+            <h2>About</h2>
+            <a href="">About Us</a>
+            <a href="">Features</a>
+            <a href="">New & blog</a>
+          </div>
+          <div class="company hidden">
+            <h2>Company</h2>
+            <a href="">Team</a>
+            <a href="">Plans & pricing</a>
+            <a href="">Become a member</a>
+
+
+          </div>
+          <div class="support hidden">
+            <h2>Support</h2>
+            <a href="">FAQs</a>
+            <a href="">Support Center</a>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-down">
+          <p class="hidden left-side">© 2021 Bedimcode. All rigths reserved.</p>
+            <div class="terms hidden right-side">
+              <a href="">Terms & Agreements</a>
+              <a href="">Privacy Policy</a>
+            </div>
+
+        </div>
+      </div>
+
+      <button class="scroll-up-btn">
+        <a href="#">
+
+          <i class="fa-solid fa-arrow-up"></i> </button>
+        </a>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
